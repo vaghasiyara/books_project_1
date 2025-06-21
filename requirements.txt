@@ -1,0 +1,9 @@
+fastapi>=0.68.0
+uvicorn>=0.15.0
+sqlmodel>=0.0.8
+python-jose==3.3.0
+passlib[bcrypt]
+python-multipart
+python-dotenv
+redis>=4.3.4
+celery>=5.2.7

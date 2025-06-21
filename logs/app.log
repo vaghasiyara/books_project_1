@@ -1,0 +1,22 @@
+{"timestamp": "2025-06-18T10:57:15.910082", "level": "INFO", "message": "BEGIN (implicit)", "module": "base", "function": "_connection_begin_impl", "line": 2698}
+{"timestamp": "2025-06-18T10:57:15.916114", "level": "INFO", "message": "SELECT chapter.id AS chapter_id, chapter.title AS chapter_title, chapter.content AS chapter_content, chapter.version AS chapter_version, chapter.created_at AS chapter_created_at, chapter.is_published AS chapter_is_published \nFROM chapter \nWHERE chapter.id = ?", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T10:57:15.916414", "level": "INFO", "message": "[generated in 0.00058s] (1,)", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T10:57:15.917908", "level": "INFO", "message": "ROLLBACK", "module": "base", "function": "_connection_rollback_impl", "line": 2701}
+{"timestamp": "2025-06-18T11:02:20.283655", "level": "INFO", "message": "BEGIN (implicit)", "module": "base", "function": "_connection_begin_impl", "line": 2698}
+{"timestamp": "2025-06-18T11:02:20.290535", "level": "INFO", "message": "SELECT chapter.id AS chapter_id, chapter.title AS chapter_title, chapter.content AS chapter_content, chapter.version AS chapter_version, chapter.created_at AS chapter_created_at, chapter.is_published AS chapter_is_published \nFROM chapter \nWHERE chapter.id = ?", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:02:20.290880", "level": "INFO", "message": "[generated in 0.00063s] (1,)", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:02:20.292250", "level": "INFO", "message": "ROLLBACK", "module": "base", "function": "_connection_rollback_impl", "line": 2701}
+{"timestamp": "2025-06-18T11:12:57.257569", "level": "INFO", "message": "BEGIN (implicit)", "module": "base", "function": "_connection_begin_impl", "line": 2698}
+{"timestamp": "2025-06-18T11:12:57.257959", "level": "INFO", "message": "PRAGMA main.table_info(\"chapter\")", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:12:57.258194", "level": "INFO", "message": "[raw sql] ()", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:12:57.259218", "level": "INFO", "message": "\nDROP TABLE chapter", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:12:57.259450", "level": "INFO", "message": "[no key 0.00023s] ()", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:12:57.271806", "level": "INFO", "message": "COMMIT", "module": "base", "function": "_connection_commit_impl", "line": 2704}
+{"timestamp": "2025-06-18T11:12:57.272311", "level": "INFO", "message": "BEGIN (implicit)", "module": "base", "function": "_connection_begin_impl", "line": 2698}
+{"timestamp": "2025-06-18T11:12:57.272646", "level": "INFO", "message": "PRAGMA main.table_info(\"chapter\")", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:12:57.272850", "level": "INFO", "message": "[raw sql] ()", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:12:57.273310", "level": "INFO", "message": "PRAGMA temp.table_info(\"chapter\")", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:12:57.273532", "level": "INFO", "message": "[raw sql] ()", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:12:57.274965", "level": "INFO", "message": "\nCREATE TABLE chapter (\n\tid INTEGER NOT NULL, \n\ttitle VARCHAR NOT NULL, \n\tcontent VARCHAR NOT NULL, \n\tversion INTEGER NOT NULL, \n\tcreated_at DATETIME NOT NULL, \n\tis_published BOOLEAN NOT NULL, \n\tPRIMARY KEY (id)\n)\n\n", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:12:57.275200", "level": "INFO", "message": "[no key 0.00043s] ()", "module": "base", "function": "_execute_context", "line": 1842}
+{"timestamp": "2025-06-18T11:12:57.279641", "level": "INFO", "message": "COMMIT", "module": "base", "function": "_connection_commit_impl", "line": 2704}
